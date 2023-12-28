@@ -67,7 +67,6 @@ const xf_OCR = (config, imageBase64) => {
                         Array.isArray(line.words) ? line.words.map(word => word.content) : []
                     )
                 );
-                console.log(contents.join(' '));
                 resolve(contents.join(' '));
             }
         });
