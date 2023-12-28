@@ -1,0 +1,23 @@
+{
+  "name": "xf_ocr",
+  "version": "1.0.2",
+  "description": "讯飞图片识别文本",
+  "keywords": [
+    "utils",
+    "XF",
+    "xf_ocr",
+    "图片识别文本",
+    "讯飞",
+    "OCR"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mizjl/xf_OCR.git"
+  },
+  "main": "xf_OCR.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
