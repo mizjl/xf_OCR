@@ -1,4 +1,3 @@
-const dayjs = require('dayjs')
 const request = require('request')
 const crypto = require('crypto');
 
