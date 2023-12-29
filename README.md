@@ -11,7 +11,6 @@ npm i xf_ocr
 
 ``` javascript
 const { xf_OCR } = require('xf_ocr')
-const fs = require('fs');
 
 const config = {
 
@@ -30,7 +29,7 @@ try {
 
 } catch (err) {
     console.log(err);
-  }
+}
 
 
 ```
