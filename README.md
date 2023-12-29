@@ -11,7 +11,6 @@ npm i xf_ocr
 
 ``` javascript
 const { xf_OCR } = require('xf_ocr')
-const fs = require('fs');
 
 const config = {
 
@@ -23,13 +22,14 @@ const config = {
 
 }
 
-const imageBase64 = fs.readFileSync(imagePath, { encoding: 'base64' }) //imagePath 图片路径
+const imagePath = 'your picture path';
+try {
+    const response = await xf_OCR(config, imagePath)
+    console.log(response);
 
-try{
-   const response = await xf_OCR(config,imageBase64)
-   console.log(response);
-}catch(err){
+} catch (err) {
     console.log(err);
 }
+
 
 ```
